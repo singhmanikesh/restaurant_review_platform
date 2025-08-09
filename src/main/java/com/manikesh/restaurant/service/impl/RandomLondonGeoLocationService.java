@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.Random;
 
 @Service
-public class RandomLondomGeoLocationService implements GeoLocationService {
+public class RandomLondonGeoLocationService implements GeoLocationService {
 
     private static final float MIN_LATITUDE = 51.28f;
     private static final float MAX_LATITUDE = 51.686f;
