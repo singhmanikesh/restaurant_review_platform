@@ -24,4 +24,5 @@ public interface RestaurantService {
 
     Restaurant updateRestaurant(String id, RestaurantCreateUpdateRequest requestCreateUpdateRequest);
 
+    void deleteRestaurant(String id);
 }
